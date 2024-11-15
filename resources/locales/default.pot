@@ -1,0 +1,432 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2024-04-30 08:58+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: ./src/Controller/ExplorerController.php:109
+#: ./src/Controller/ExplorerController.php:113
+#: ./src/Controller/ExplorerController.php:207
+msgid "Need to provide a valid block"
+msgstr ""
+
+#: ./src/Controller/ExplorerController.php:117
+msgid "Need to provide a block number"
+msgstr ""
+
+#: ./src/Controller/ExplorerController.php:136
+msgid "Need to provide a valid address"
+msgstr ""
+
+#: ./src/Controller/ExplorerController.php:140
+msgid "Need to provide an address"
+msgstr ""
+
+#: ./src/Controller/ExplorerController.php:165
+msgid "Need to provide a valid transaction"
+msgstr ""
+
+#: ./src/Controller/ExplorerController.php:182
+msgid "Need to provide an transaction"
+msgstr ""
+
+#: ./src/Controller/ExplorerController.php:203
+msgid "Something went wrong while getting the transaction"
+msgstr ""
+
+#: ./src/Controller/ExplorerController.php:211
+msgid "Need to provide a block"
+msgstr ""
+
+#: ./src/Controller/ExplorerController.php:230
+msgid "Something went wrong while getting the pending transactions"
+msgstr ""
+
+#: ./src/Controller/ExplorerController.php:249
+msgid "Something went wrong while getting the pending transaction"
+msgstr ""
+
+#: ./src/Controller/ExplorerController.php:266
+msgid "Need to provide a pending transaction"
+msgstr ""
+
+#: ./src/Controller/ExplorerController.php:301
+msgid "Need to provide an asset"
+msgstr ""
+
+#: ./src/Controller/ExplorerController.php:334
+msgid "Need to provide a query"
+msgstr ""
+
+#: ./templates/Explorer/address.php:3
+#: ./templates/Explorer/address.php:12
+#: ./templates/Explorer/pendingtransaction.php:68
+#: ./templates/Explorer/pendingtransaction.php:122
+#: ./templates/Explorer/transaction.php:144
+#: ./templates/layout/default.php:287
+msgid "Address"
+msgstr ""
+
+#: ./templates/Explorer/address.php:14
+msgid "Not Implemented yet!"
+msgstr ""
+
+#: ./templates/Explorer/address.php:20
+#: ./templates/Explorer/asset.php:49
+#: ./templates/Explorer/assets.php:50
+#: ./templates/Explorer/block.php:60
+#: ./templates/Explorer/blocktransactions.php:55
+#: ./templates/Explorer/index.php:130
+#: ./templates/Explorer/pendingtransaction.php:143
+#: ./templates/Explorer/pendingtransactions.php:42
+#: ./templates/Explorer/transaction.php:165
+msgid "While using {0} an error occured."
+msgstr ""
+
+#: ./templates/Explorer/asset.php:3
+#: ./templates/Explorer/asset.php:12
+#: ./templates/Explorer/pendingtransaction.php:51
+#: ./templates/Explorer/pendingtransaction.php:105
+#: ./templates/Explorer/transaction.php:63
+#: ./templates/Explorer/transaction.php:127
+msgid "Asset"
+msgstr ""
+
+#: ./templates/Explorer/asset.php:15
+#: ./templates/Explorer/pendingtransaction.php:49
+#: ./templates/Explorer/pendingtransaction.php:101
+#: ./templates/Explorer/transaction.php:61
+#: ./templates/Explorer/transaction.php:123
+msgid "Type"
+msgstr ""
+
+#: ./templates/Explorer/asset.php:17
+msgid "Quorum"
+msgstr ""
+
+#: ./templates/Explorer/asset.php:19
+msgid "Key Index"
+msgstr ""
+
+#: ./templates/Explorer/asset.php:21
+msgid "Derive Rule"
+msgstr ""
+
+#: ./templates/Explorer/asset.php:23
+#: ./templates/Explorer/assets.php:20
+#: ./templates/Explorer/pendingtransaction.php:21
+#: ./templates/Explorer/pendingtransaction.php:103
+#: ./templates/Explorer/transaction.php:125
+msgid "ID"
+msgstr ""
+
+#: ./templates/Explorer/asset.php:25
+#: ./templates/Explorer/assets.php:19
+msgid "Alias"
+msgstr ""
+
+#: ./templates/Explorer/asset.php:27
+msgid "Vm Version"
+msgstr ""
+
+#: ./templates/Explorer/asset.php:29
+msgid "Issue Program"
+msgstr ""
+
+#: ./templates/Explorer/asset.php:31
+msgid "Raw Definition Byte"
+msgstr ""
+
+#: ./templates/Explorer/asset.php:33
+msgid "Limit Height"
+msgstr ""
+
+#: ./templates/Explorer/asset.php:35
+msgid "Definition Decimals"
+msgstr ""
+
+#: ./templates/Explorer/asset.php:37
+msgid "Definition Description"
+msgstr ""
+
+#: ./templates/Explorer/asset.php:39
+msgid "Definition Name"
+msgstr ""
+
+#: ./templates/Explorer/asset.php:41
+msgid "Definition Symbol"
+msgstr ""
+
+#: ./templates/Explorer/assets.php:3
+#: ./templates/Explorer/assets.php:12
+#: ./templates/layout/default.php:280
+msgid "Assets"
+msgstr ""
+
+#: ./templates/Explorer/assets.php:21
+msgid "Name"
+msgstr ""
+
+#: ./templates/Explorer/assets.php:22
+msgid "Symbol"
+msgstr ""
+
+#: ./templates/Explorer/assets.php:23
+msgid "Description"
+msgstr ""
+
+#: ./templates/Explorer/assets.php:43
+msgid "No orders on this block"
+msgstr ""
+
+#: ./templates/Explorer/block.php:5
+#: ./templates/Explorer/block.php:14
+#: ./templates/Explorer/blocktransactions.php:16
+#: ./templates/layout/default.php:287
+msgid "Block"
+msgstr ""
+
+#: ./templates/Explorer/block.php:17
+#: ./templates/Explorer/index.php:71
+msgid "Number"
+msgstr ""
+
+#: ./templates/Explorer/block.php:19
+#: ./templates/Explorer/index.php:72
+msgid "Hash"
+msgstr ""
+
+#: ./templates/Explorer/block.php:21
+#: ./templates/Explorer/pendingtransaction.php:25
+#: ./templates/Explorer/transaction.php:41
+msgid "Size"
+msgstr ""
+
+#: ./templates/Explorer/block.php:23
+#: ./templates/Explorer/pendingtransaction.php:23
+msgid "Version"
+msgstr ""
+
+#: ./templates/Explorer/block.php:25
+msgid "Previous Block Hash"
+msgstr ""
+
+#: ./templates/Explorer/block.php:27
+msgid "Timestamp"
+msgstr ""
+
+#: ./templates/Explorer/block.php:28
+#: ./templates/Explorer/index.php:91
+#: ./templates/Explorer/transaction.php:24
+msgid "{0} UTC"
+msgstr ""
+
+#: ./templates/Explorer/block.php:29
+#: ./templates/Explorer/index.php:74
+msgid "Nonce"
+msgstr ""
+
+#: ./templates/Explorer/block.php:31
+msgid "Bits"
+msgstr ""
+
+#: ./templates/Explorer/block.php:33
+#: ./templates/Explorer/index.php:32
+msgid "Difficulty"
+msgstr ""
+
+#: ./templates/Explorer/block.php:35
+msgid "Transaction Merkle Root"
+msgstr ""
+
+#: ./templates/Explorer/block.php:37
+msgid "Transaction Status Hash"
+msgstr ""
+
+#: ./templates/Explorer/block.php:39
+#: ./templates/Explorer/index.php:75
+msgid "Transactions"
+msgstr ""
+
+#: ./templates/Explorer/block.php:41
+msgid "{0} Transaction"
+msgid_plural "{0} Transactions"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ./templates/Explorer/blocktransactions.php:5
+#: ./templates/Explorer/blocktransactions.php:14
+msgid "Block Transactions"
+msgstr ""
+
+#: ./templates/Explorer/blocktransactions.php:30
+#: ./templates/Explorer/pendingtransactions.php:19
+#: ./templates/Explorer/transaction.php:5
+#: ./templates/Explorer/transaction.php:18
+#: ./templates/layout/default.php:287
+msgid "Transaction"
+msgstr ""
+
+#: ./templates/Explorer/blocktransactions.php:31
+#: ./templates/Explorer/pendingtransaction.php:27
+#: ./templates/Explorer/transaction.php:39
+msgid "Status"
+msgstr ""
+
+#: ./templates/Explorer/blocktransactions.php:41
+#: ./templates/Explorer/pendingtransaction.php:28
+#: ./templates/Explorer/transaction.php:40
+msgid "Fail"
+msgstr ""
+
+#: ./templates/Explorer/blocktransactions.php:41
+#: ./templates/Explorer/pendingtransaction.php:28
+#: ./templates/Explorer/transaction.php:40
+msgid "Success"
+msgstr ""
+
+#: ./templates/Explorer/blocktransactions.php:52
+msgid "No transactions on this block"
+msgstr ""
+
+#: ./templates/Explorer/index.php:6
+#: ./templates/layout/default.php:273
+msgid "Home"
+msgstr ""
+
+#: ./templates/Explorer/index.php:16
+msgid "Last Block"
+msgstr ""
+
+#: ./templates/Explorer/index.php:26
+msgid "Hash Rate"
+msgstr ""
+
+#: ./templates/Explorer/index.php:27
+msgid "{0} H/s"
+msgstr ""
+
+#: ./templates/Explorer/index.php:38
+#: ./templates/Explorer/pendingtransactions.php:3
+#: ./templates/Explorer/pendingtransactions.php:12
+msgid "Pending Transactions"
+msgstr ""
+
+#: ./templates/Explorer/index.php:51
+msgid "None"
+msgstr ""
+
+#: ./templates/Explorer/index.php:56
+msgid "Supply"
+msgstr ""
+
+#: ./templates/Explorer/index.php:73
+msgid "Time Stamp"
+msgstr ""
+
+#: ./templates/Explorer/index.php:94
+msgid "{0} Tx"
+msgstr ""
+
+#: ./templates/Explorer/index.php:112
+#: ./templates/Explorer/index.php:114
+msgid "previous"
+msgstr ""
+
+#: ./templates/Explorer/index.php:118
+#: ./templates/Explorer/index.php:120
+msgid "next"
+msgstr ""
+
+#: ./templates/Explorer/index.php:126
+msgid "No blocks"
+msgstr ""
+
+#: ./templates/Explorer/index.php:40
+msgid "{0} Pending Transaction"
+msgid_plural "{0} Pending Transactions"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ./templates/Explorer/pendingtransaction.php:5
+#: ./templates/Explorer/pendingtransaction.php:18
+msgid "Pending Transaction"
+msgstr ""
+
+#: ./templates/Explorer/pendingtransaction.php:29
+msgid "Mux ID"
+msgstr ""
+
+#: ./templates/Explorer/pendingtransaction.php:61
+#: ./templates/Explorer/pendingtransaction.php:115
+#: ./templates/Explorer/transaction.php:77
+#: ./templates/Explorer/transaction.php:137
+msgid "Amount"
+msgstr ""
+
+#: ./templates/Explorer/pendingtransaction.php:82
+#: ./templates/Explorer/transaction.php:104
+msgid "No Inputs"
+msgstr ""
+
+#: ./templates/Explorer/pendingtransaction.php:136
+#: ./templates/Explorer/transaction.php:158
+msgid "No Outputs"
+msgstr ""
+
+#: ./templates/Explorer/pendingtransaction.php:39
+#: ./templates/Explorer/transaction.php:51
+msgid "{0} Input"
+msgid_plural "{0} Inputs"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ./templates/Explorer/pendingtransaction.php:91
+#: ./templates/Explorer/transaction.php:113
+msgid "{0} Output"
+msgid_plural "{0} Outputs"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ./templates/Explorer/pendingtransactions.php:39
+msgid "No pending transactions."
+msgstr ""
+
+#: ./templates/Explorer/transaction.php:21
+msgid "Tx ID"
+msgstr ""
+
+#: ./templates/Explorer/transaction.php:23
+msgid "Block Time"
+msgstr ""
+
+#: ./templates/Explorer/transaction.php:25
+msgid "Block Hash"
+msgstr ""
+
+#: ./templates/Explorer/transaction.php:27
+msgid "Block Height"
+msgstr ""
+
+#: ./templates/Explorer/transaction.php:37
+msgid "Block Index"
+msgstr ""
+
+#: ./templates/layout/default.php:41
+msgid "KUSK Blockchain Explorer"
+msgstr ""
+
+#: ./templates/layout/error.php:38
+msgid "Back"
+msgstr ""
+

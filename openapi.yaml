@@ -1,0 +1,85 @@
+openapi: 3.0.0
+
+info:
+  title: KUSK Explorer - OpenAPI 3.0
+  description: |-
+    This is a collection of endpoints for the Explorer of the cryptocoin `KUSK`.
+
+    Some useful links:
+    - [KUSK Main Page](https://kusk.top)
+    - [KUSK GitHub Organization](https://github.com/KUSK-Project)
+    - [KUSK Explorer](https://explorer.kusk.top)
+  contact:
+    email: guscarreno@gmail.com
+  version: "1.0"
+
+servers: 
+  - url: "https://explorer.kusk.top/api/v1"
+
+tags:
+  - name: network
+    description: Network related information
+
+paths:
+  /net-stats:
+    get:
+      tags:
+        - network
+      summary: Network Statistics
+      description: Get network statistics.
+      operationId: getNetStats
+      responses:
+        '200':
+          description: Operation Succeeded
+          content:
+            application/json:
+              schema: 
+                $ref: '#/components/schemas/netstatsResponse'
+        '500':
+          description: Server Error
+
+components: 
+  schemas: 
+    netstatsResponse:
+      type: object
+      properties:
+        code:
+          type: integer
+        message:
+          type: string
+        netstats:
+          type: object
+          properties:
+            network:
+              type: string
+            version:
+              type: string
+            height:
+              type: integer
+              format: int64
+            supply:
+              type: integer
+              format: int64
+            mined_coins:
+              type: integer
+              format: int64
+            hash_rate:
+              type: integer
+              format: int64
+            difficulty:
+              type: integer
+              format: int64
+      example: {
+        "code": 200, 
+        "message": "OK", 
+        "netstats": {
+          "network": "mainnet",
+          "version": "1.0.3",
+          "height": 32506,
+          "supply": 210000000000000000,
+          "mined_coins": 23931125936221987,
+          "hash_rate": 104887474,
+          "difficulty": 4090611491
+          }
+        }
+

@@ -1,0 +1,370 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2024-04-28 09:39+0000\n"
+"PO-Revision-Date: 2024-04-29 15:33+0100\n"
+"Last-Translator: Gustavo 'Gus' Carreno <guscarreno@gmail.com>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.2\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+msgid "Block Transactions"
+msgstr "Transações do Bloco"
+
+msgid "Pending Transactions"
+msgstr "Transações Pendentes"
+
+msgid "Pending Transaction"
+msgstr "Transação Pendente"
+
+#: src/Controller/ExplorerController.php:109
+#: src/Controller/ExplorerController.php:113
+#: src/Controller/ExplorerController.php:207
+msgid "Need to provide a valid block"
+msgstr "É necessário dar um bloco válido"
+
+#: src/Controller/ExplorerController.php:117
+msgid "Need to provide a block number"
+msgstr "É necessário dar um número para o bloco"
+
+#: src/Controller/ExplorerController.php:136
+msgid "Need to provide a valid address"
+msgstr "É necessário dar um endereço válido"
+
+#: src/Controller/ExplorerController.php:140
+msgid "Need to provide an address"
+msgstr "É necessário dar um endereço"
+
+#: src/Controller/ExplorerController.php:165
+msgid "Need to provide a valid transaction"
+msgstr "É necessário dar uma transação válida"
+
+#: src/Controller/ExplorerController.php:182
+msgid "Need to provide an transaction"
+msgstr "É necessário dar uma transação"
+
+#: src/Controller/ExplorerController.php:203
+msgid "Something went wrong while getting the transaction"
+msgstr "Algo de errado aconteceu ao tentar obter a transação"
+
+#: src/Controller/ExplorerController.php:211
+msgid "Need to provide a block"
+msgstr "É necessário dar um bloco"
+
+#: src/Controller/ExplorerController.php:230
+msgid "Something went wrong while getting the pending transactions"
+msgstr "Algo de errado aconteceu ao tentar obter as transações pendentes"
+
+#: src/Controller/ExplorerController.php:249
+msgid "Something went wrong while getting the pending transaction"
+msgstr "Algo de errado aconteceu ao tentar obter a transação pendente"
+
+#: src/Controller/ExplorerController.php:266
+msgid "Need to provide a pending transaction"
+msgstr "É necessário dar uma transação pendente"
+
+#: src/Controller/ExplorerController.php:301
+msgid "Need to provide an asset"
+msgstr "É necessário dar um ativo"
+
+#: src/Controller/ExplorerController.php:334
+msgid "Need to provide a query"
+msgstr "É necessário dar uma procura"
+
+#: templates/Explorer/address.php:14
+msgid "Not Implemented yet!"
+msgstr "Por implementar!"
+
+#: templates/Explorer/address.php:20 templates/Explorer/asset.php:49
+#: templates/Explorer/assets.php:50 templates/Explorer/block.php:53
+#: templates/Explorer/blocktransactions.php:53 templates/Explorer/index.php:118
+#: templates/Explorer/pendingtransaction.php:127
+#: templates/Explorer/pendingtransactions.php:42
+#: templates/Explorer/transaction.php:149
+msgid "While using {0} an error occured."
+msgstr "Um erro ocorreu ao tentar usar {0}"
+
+#: templates/Explorer/asset.php:15 templates/Explorer/transaction.php:54
+#: templates/Explorer/transaction.php:109
+msgid "Type"
+msgstr "Tipo"
+
+#: templates/Explorer/asset.php:17
+msgid "Quorum"
+msgstr "Quorum"
+
+#: templates/Explorer/asset.php:19
+msgid "Key Index"
+msgstr "Índice chave"
+
+#: templates/Explorer/asset.php:21
+msgid "Derive Rule"
+msgstr "Regra derivative"
+
+#: templates/Explorer/asset.php:23 templates/Explorer/assets.php:20
+#: templates/Explorer/pendingtransaction.php:19
+#: templates/Explorer/transaction.php:111
+msgid "ID"
+msgstr "ID"
+
+#: templates/Explorer/asset.php:25 templates/Explorer/assets.php:19
+msgid "Alias"
+msgstr "Outro Nome"
+
+#: templates/Explorer/asset.php:27
+msgid "Vm Version"
+msgstr "Versão VM"
+
+#: templates/Explorer/asset.php:29
+msgid "Issue Program"
+msgstr "Programa de emissão"
+
+#: templates/Explorer/asset.php:31
+msgid "Raw Definition Byte"
+msgstr "Byte de definição bruta"
+
+#: templates/Explorer/asset.php:33
+msgid "Limit Height"
+msgstr "Altura limite"
+
+#: templates/Explorer/asset.php:35
+msgid "Definition Decimals"
+msgstr "Decimais"
+
+#: templates/Explorer/asset.php:37
+msgid "Definition Description"
+msgstr "Descrição"
+
+#: templates/Explorer/asset.php:39
+msgid "Definition Name"
+msgstr "Nome"
+
+#: templates/Explorer/asset.php:41
+msgid "Definition Symbol"
+msgstr "Simbolo"
+
+#: templates/Explorer/assets.php:21
+msgid "Name"
+msgstr "Nome"
+
+#: templates/Explorer/assets.php:22
+msgid "Symbol"
+msgstr "Simbolo"
+
+#: templates/Explorer/assets.php:23
+msgid "Description"
+msgstr "Descrição"
+
+#: templates/Explorer/assets.php:43
+msgid "No orders on this block"
+msgstr "Não existem transações neste bloco"
+
+#: templates/Explorer/block.php:15 templates/Explorer/index.php:62
+msgid "Number"
+msgstr "Número"
+
+#: templates/Explorer/block.php:17 templates/Explorer/index.php:63
+msgid "Hash"
+msgstr "Cifra"
+
+#: templates/Explorer/block.php:19 templates/Explorer/pendingtransaction.php:23
+#: templates/Explorer/transaction.php:39
+msgid "Size"
+msgstr "Tamanho"
+
+#: templates/Explorer/block.php:21 templates/Explorer/pendingtransaction.php:21
+msgid "Version"
+msgstr "Versão"
+
+#: templates/Explorer/block.php:23
+msgid "Previous Block Hash"
+msgstr "Cifra do bloco anterior"
+
+#: templates/Explorer/block.php:25
+msgid "Timestamp"
+msgstr "Data/Hora"
+
+#: templates/Explorer/block.php:26 templates/Explorer/index.php:82
+#: templates/Explorer/transaction.php:22
+msgid "UTC"
+msgstr "UTC"
+
+#: templates/Explorer/block.php:27 templates/Explorer/index.php:65
+msgid "Nonce"
+msgstr "Nonce"
+
+#: templates/Explorer/block.php:29
+msgid "Bits"
+msgstr "Bits"
+
+#: templates/Explorer/block.php:31 templates/Explorer/index.php:29
+msgid "Difficulty"
+msgstr "Dificuldade"
+
+#: templates/Explorer/block.php:33
+msgid "Transaction Merkle Root"
+msgstr "Raiz Merkle da transação"
+
+#: templates/Explorer/block.php:35
+msgid "Transaction Status Hash"
+msgstr "Cifra de estado da transação"
+
+#: templates/Explorer/block.php:37 templates/Explorer/index.php:66
+msgid "Transactions"
+msgstr "Transações"
+
+#: templates/Explorer/block.php:39 templates/Explorer/block.php:46
+msgid "Transaction(s)"
+msgstr "Transação(ões)"
+
+#: templates/Explorer/blocktransactions.php:14 templates/layout/default.php:288
+msgid "Block"
+msgstr "Bloco"
+
+#: templates/Explorer/blocktransactions.php:28
+#: templates/Explorer/pendingtransactions.php:19
+#: templates/layout/default.php:288
+msgid "Transaction"
+msgstr "Transação"
+
+#: templates/Explorer/blocktransactions.php:29
+#: templates/Explorer/pendingtransaction.php:25
+#: templates/Explorer/transaction.php:37
+msgid "Status"
+msgstr "Estado"
+
+#: templates/Explorer/blocktransactions.php:50
+msgid "No transactions on this block"
+msgstr "Não existem transações neste bloco"
+
+#: templates/Explorer/index.php:13
+msgid "Last Block"
+msgstr "Último bloco"
+
+#: templates/Explorer/index.php:23
+msgid "Hash Rate"
+msgstr "Taxa de cifra por segundo"
+
+#: templates/Explorer/index.php:35
+msgid "Pending Transactions"
+msgstr "Transações Pendentes"
+
+#: templates/Explorer/index.php:38
+msgid "Pending Transaction(s)"
+msgstr "Transação(ões) Pendentes"
+
+#: templates/Explorer/index.php:46
+msgid "No pending transactions"
+msgstr "Não existem transações pendentes"
+
+#: templates/Explorer/index.php:52
+msgid "Supply"
+msgstr "Em circulação"
+
+#: templates/Explorer/index.php:64
+msgid "Time Stamp"
+msgstr "Data/Hora"
+
+#: templates/Explorer/index.php:85 templates/Explorer/index.php:92
+msgid "Tx"
+msgstr "Tx"
+
+#: templates/Explorer/index.php:100 templates/Explorer/index.php:102
+msgid "previous"
+msgstr "anterior"
+
+#: templates/Explorer/index.php:106 templates/Explorer/index.php:108
+msgid "next"
+msgstr "seguinte"
+
+#: templates/Explorer/index.php:114
+msgid "No blocks"
+msgstr "Nenhum bloco"
+
+#: templates/Explorer/pendingtransaction.php:27
+msgid "Mux ID"
+msgstr "Mux ID"
+
+#: ./templates/Explorer/pendingtransaction.php:39
+#: ./templates/Explorer/transaction.php:51
+msgid "{0} Input"
+msgid_plural "{0} Inputs"
+msgstr[0] "{0} Entrada"
+msgstr[1] "{0} Entradas"
+
+#: templates/Explorer/pendingtransaction.php:73
+#: templates/Explorer/transaction.php:95
+msgid "No Inputs"
+msgstr "Nenhuma entrada"
+
+#: ./templates/Explorer/pendingtransaction.php:91
+#: ./templates/Explorer/transaction.php:113
+msgid "{0} Output"
+msgid_plural "{0} Outputs"
+msgstr[0] "{0} Saída"
+msgstr[1] "{0} Saídas"
+
+#: templates/Explorer/pendingtransaction.php:120
+#: templates/Explorer/transaction.php:142
+msgid "No Outputs"
+msgstr "Nenhuma saída"
+
+#: templates/Explorer/pendingtransactions.php:39
+msgid "No pending transactions."
+msgstr "Não existem transações pendentes."
+
+#: templates/Explorer/transaction.php:19
+msgid "Tx ID"
+msgstr "Tx ID"
+
+#: templates/Explorer/transaction.php:21
+msgid "Block Time"
+msgstr "Data/Hora do bloco"
+
+#: templates/Explorer/transaction.php:23
+msgid "Block Hash"
+msgstr "Cifra do Bloco"
+
+#: templates/Explorer/transaction.php:25
+msgid "Block Height"
+msgstr "Altura do Bloco"
+
+#: templates/Explorer/transaction.php:35
+msgid "Block Index"
+msgstr "Índice do Bloco"
+
+#: templates/Explorer/transaction.php:56 templates/Explorer/transaction.php:113
+msgid "Asset"
+msgstr "Ativo"
+
+#: templates/Explorer/transaction.php:70 templates/Explorer/transaction.php:123
+msgid "Amount"
+msgstr "Quantidade"
+
+#: templates/Explorer/transaction.php:128 templates/layout/default.php:288
+msgid "Address"
+msgstr "Endereço"
+
+#: templates/layout/default.php:41
+msgid "KUSK Blockchain Explorer"
+msgstr "Explorador da moeda KUSK"
+
+#: templates/layout/default.php:274
+msgid "Home"
+msgstr "Início"
+
+#: templates/layout/default.php:281
+msgid "Assets"
+msgstr "Ativos"
+
+#: templates/layout/error.php:38
+msgid "Back"
+msgstr "Atrás"

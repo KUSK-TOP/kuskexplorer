@@ -1,0 +1,359 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2024-04-22 02:45+0000\n"
+"PO-Revision-Date: 2024-04-22 13:51+0800\n"
+"Last-Translator: \n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.2\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+msgid "Block Transactions"
+msgstr "区块交易"
+
+msgid "Hash Rate"
+msgstr "哈希率"
+
+msgid "Transaction(s)"
+msgstr "交易"
+
+msgid "True"
+msgstr "真"
+
+msgid "False"
+msgstr "假"
+
+msgid "No pending transactions"
+msgstr "无待处理交易"
+
+msgid "Time Stamp"
+msgstr "时间戳"
+
+msgid "Nonce"
+msgstr "Nonce"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "Asset"
+msgstr "资产"
+
+msgid "Amount"
+msgstr "金额"
+
+#: src/Controller/ExplorerController.php:107
+#: src/Controller/ExplorerController.php:111
+#: src/Controller/ExplorerController.php:205
+msgid "Need to provide a valid block"
+msgstr "请提供有效的区块"
+
+#: src/Controller/ExplorerController.php:209
+msgid "Need to provide a block"
+msgstr "需要提供区块"
+
+#: src/Controller/ExplorerController.php:115
+msgid "Need to provide a block number"
+msgstr "请提供区块高度"
+
+#: src/Controller/ExplorerController.php:134
+msgid "Need to provide a valid address"
+msgstr "请提供有效地址"
+
+#: src/Controller/ExplorerController.php:138
+msgid "Need to provide an address"
+msgstr "需要提供地址"
+
+#: src/Controller/ExplorerController.php:163
+msgid "Need to provide a valid transaction"
+msgstr "请提供有效的交易订单"
+
+#: src/Controller/ExplorerController.php:180
+msgid "Need to provide an transaction"
+msgstr "需要提供一项交易订单"
+
+#: src/Controller/ExplorerController.php:201
+msgid "Something went wrong while getting the transaction"
+msgstr "在获取交易时出错"
+
+#: src/Controller/ExplorerController.php:228
+msgid "Something went wrong while getting the pending transactions"
+msgstr "在获取待处理事务时出错"
+
+#: src/Controller/ExplorerController.php:247
+msgid "Something went wrong while getting the pending transaction"
+msgstr "在获取待处理交易时出错"
+
+#: src/Controller/ExplorerController.php:264
+msgid "Need to provide a pending transaction"
+msgstr "需要提供待处理交易"
+
+#: src/Controller/ExplorerController.php:299
+msgid "Need to provide an asset"
+msgstr "需要提供资产ID"
+
+#: src/Controller/ExplorerController.php:332
+msgid "Need to provide a query"
+msgstr "需要提供查询"
+
+#: templates/layout/default.php:281
+msgid "Address"
+msgstr "地址"
+
+#: templates/Explorer/address.php:20 templates/Explorer/asset.php:49
+#: templates/Explorer/assets.php:50 templates/Explorer/block.php:53
+#: templates/Explorer/blocktransactions.php:53 templates/Explorer/index.php:108
+#: templates/Explorer/pendingtransaction.php:127
+#: templates/Explorer/pendingtransactions.php:42
+#: templates/Explorer/transaction.php:149
+msgid "While using {0} an error occured."
+msgstr "使用 {0} 时发生错误。"
+
+#: templates/Explorer/blocktransactions.php:14 templates/layout/default.php:281
+msgid "Block"
+msgstr "区块"
+
+#: templates/Explorer/asset.php:15
+msgid "Type"
+msgstr "类型"
+
+#: templates/Explorer/asset.php:17
+msgid "Quorum"
+msgstr "节点确认"
+
+#: templates/Explorer/asset.php:19
+msgid "Key Index"
+msgstr "关键索引"
+
+#: templates/Explorer/asset.php:21
+msgid "Derive Rule"
+msgstr "生成规则"
+
+#: templates/Explorer/asset.php:23 templates/Explorer/assets.php:20
+#: templates/Explorer/pendingtransaction.php:19
+msgid "ID"
+msgstr "ID"
+
+#: templates/Explorer/asset.php:25 templates/Explorer/assets.php:19
+msgid "Alias"
+msgstr "别名"
+
+#: templates/Explorer/asset.php:27
+msgid "Vm Version"
+msgstr "虚拟机版本"
+
+#: templates/Explorer/asset.php:29
+msgid "Issue Program"
+msgstr "发行合约"
+
+#: templates/Explorer/asset.php:31
+msgid "Raw Definition Byte"
+msgstr "原始定义字节"
+
+#: templates/Explorer/asset.php:33
+msgid "Limit Height"
+msgstr "限定高度"
+
+#: templates/Explorer/asset.php:35
+msgid "Definition Decimals"
+msgstr "小数定义"
+
+#: templates/Explorer/asset.php:37
+msgid "Definition Description"
+msgstr "描述定义"
+
+#: templates/Explorer/asset.php:39
+msgid "Definition Name"
+msgstr "名称定义"
+
+#: templates/Explorer/asset.php:41
+msgid "Definition Symbol"
+msgstr "符号定义"
+
+#: templates/Explorer/assets.php:21
+msgid "Name"
+msgstr "名称"
+
+#: templates/Explorer/assets.php:22
+msgid "Symbol"
+msgstr "符号"
+
+#: templates/Explorer/assets.php:23
+msgid "Description"
+msgstr "简介"
+
+#: templates/Explorer/assets.php:43
+msgid "No orders on this block"
+msgstr "该区块无订单"
+
+#: templates/Explorer/block.php:15 templates/Explorer/index.php:50
+msgid "Number"
+msgstr "高度"
+
+#: templates/Explorer/block.php:17 templates/Explorer/index.php:51
+msgid "Hash"
+msgstr "哈希值"
+
+#: templates/Explorer/block.php:19 templates/Explorer/pendingtransaction.php:23
+#: templates/Explorer/transaction.php:39
+msgid "Size"
+msgstr "规格"
+
+#: templates/Explorer/block.php:21 templates/Explorer/pendingtransaction.php:21
+msgid "Version"
+msgstr "版本"
+
+#: templates/Explorer/block.php:23
+msgid "Previous Block Hash"
+msgstr "上一区块哈希"
+
+#: templates/Explorer/block.php:25
+msgid "Timestamp"
+msgstr "时间戳"
+
+#: templates/Explorer/block.php:27 templates/Explorer/index.php:53
+msgid "Nonce"
+msgstr "随机数"
+
+#: templates/Explorer/block.php:29
+msgid "Bits"
+msgstr "比特"
+
+#: templates/Explorer/block.php:31 templates/Explorer/index.php:54
+msgid "Difficulty"
+msgstr "难度"
+
+#: templates/Explorer/block.php:33
+msgid "Transaction Merkle Root"
+msgstr "交易默克尔根"
+
+#: templates/Explorer/block.php:35
+msgid "Transaction Status Hash"
+msgstr "交易哈希值"
+
+#: templates/Explorer/block.php:37 templates/Explorer/index.php:55
+msgid "Transactions"
+msgstr "交易"
+
+#: templates/Explorer/blocktransactions.php:28
+#: templates/Explorer/pendingtransactions.php:19
+#: templates/layout/default.php:281
+msgid "Transaction"
+msgstr "交易"
+
+#: templates/Explorer/blocktransactions.php:29
+#: templates/Explorer/pendingtransaction.php:25
+#: templates/Explorer/transaction.php:37
+msgid "Status Fail"
+msgstr "状态"
+
+#: templates/Explorer/blocktransactions.php:50
+msgid "No transactions on this block"
+msgstr "该区块无交易记录"
+
+#: templates/Explorer/index.php:13
+msgid "Last Block"
+msgstr "当前区块"
+
+#: templates/Explorer/index.php:23
+msgid "Pending Transactions"
+msgstr "待处理交易"
+
+#: templates/Explorer/index.php:26
+msgid "Pending Transaction(s)"
+msgstr "待处理交易"
+
+#: templates/Explorer/index.php:34
+msgid "No pending transactions"
+msgstr "无待处理交易"
+
+#: templates/Explorer/index.php:40
+msgid "Supply"
+msgstr "总量"
+
+#: templates/Explorer/index.php:52
+msgid "Time Stamp"
+msgstr "时间戳"
+
+#: templates/Explorer/index.php:90 templates/Explorer/index.php:92
+msgid "previous"
+msgstr "上一页"
+
+#: templates/Explorer/index.php:96 templates/Explorer/index.php:98
+msgid "next"
+msgstr "下一页"
+
+#: templates/Explorer/index.php:104
+msgid "No blocks"
+msgstr "没有区块"
+
+#: templates/Explorer/pendingtransaction.php:27
+msgid "Mux ID"
+msgstr "Mux ID"
+
+#: templates/Explorer/pendingtransaction.php:37
+#: templates/Explorer/transaction.php:49
+msgid "Inputs"
+msgstr "输入"
+
+#: templates/Explorer/pendingtransaction.php:73
+#: templates/Explorer/transaction.php:95
+msgid "No Inputs"
+msgstr "没有输入"
+
+#: templates/Explorer/pendingtransaction.php:82
+#: templates/Explorer/transaction.php:104
+msgid "Outputs"
+msgstr "输出"
+
+#: templates/Explorer/pendingtransaction.php:120
+#: templates/Explorer/transaction.php:142
+msgid "No Outputs"
+msgstr "没有输出"
+
+#: templates/Explorer/pendingtransactions.php:39
+msgid "No pending transactions."
+msgstr "无待处理交易。"
+
+#: templates/Explorer/transaction.php:19
+msgid "Tx ID"
+msgstr "交易ID"
+
+#: templates/Explorer/transaction.php:21
+msgid "Block Time"
+msgstr "区块时间"
+
+#: templates/Explorer/transaction.php:23
+msgid "Block Hash"
+msgstr "区块哈希值"
+
+#: templates/Explorer/transaction.php:25
+msgid "Block Height"
+msgstr "区块高度"
+
+#: templates/Explorer/transaction.php:35
+msgid "Block Index"
+msgstr "区块索引"
+
+#: templates/layout/default.php:41
+msgid "KUSK Blockchain Explorer"
+msgstr "KUSK区块浏览器"
+
+#: templates/layout/default.php:267
+msgid "Home"
+msgstr "主页"
+
+#: templates/layout/default.php:274
+msgid "Assets"
+msgstr "资产"
+
+#: templates/layout/error.php:38
+msgid "Back"
+msgstr "返回"

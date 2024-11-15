@@ -1,0 +1,358 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2024-04-22 02:45+0000\n"
+"PO-Revision-Date: 2024-04-28 09:03+0000\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 2.2\n"
+"Last-Translator: \n"
+"Language: fa\n"
+
+msgid "Pending Transaction"
+msgstr "تراکنش در حال انتظار"
+
+msgid "Not Implemented yet!"
+msgstr "هنوز پیاده سازی نشده است!"
+
+msgid "Block Transactions"
+msgstr "تراکنش های بلاک"
+
+msgid "Transaction(s)"
+msgstr "تراکنش(ها)"
+
+msgid "Tx"
+msgstr "تراکنش"
+
+msgid "Hash Rate"
+msgstr "هش ریت"
+
+msgid "True"
+msgstr "بله"
+
+msgid "False"
+msgstr "نه"
+
+msgid "Asset"
+msgstr "دارایی"
+
+msgid "Amount"
+msgstr "مقدار"
+
+msgid "UTC"
+msgstr "ساعت هماهنگ جهانی"
+
+#: src/Controller/ExplorerController.php:107
+#: src/Controller/ExplorerController.php:111
+#: src/Controller/ExplorerController.php:205
+msgid "Need to provide a valid block"
+msgstr "نیاز به ارائه بلوک معتبری دارید"
+
+#: src/Controller/ExplorerController.php:209
+msgid "Need to provide a block"
+msgstr "نیاز به ارائه بلوک دارید"
+
+#: src/Controller/ExplorerController.php:115
+msgid "Need to provide a block number"
+msgstr "نیاز به ارائه عدد بلوک دارید"
+
+#: src/Controller/ExplorerController.php:134
+msgid "Need to provide a valid address"
+msgstr "نیاز به ارائه آدرس معتبری دارید"
+
+#: src/Controller/ExplorerController.php:138
+msgid "Need to provide an address"
+msgstr "نیاز به ارائه آدرس دارید"
+
+#: src/Controller/ExplorerController.php:163
+msgid "Need to provide a valid transaction"
+msgstr "نیاز به ارائه تراکنش معتبری دارید"
+
+#: src/Controller/ExplorerController.php:180
+msgid "Need to provide an transaction"
+msgstr "نیاز به ارائه تراکنش دارید"
+
+#: src/Controller/ExplorerController.php:201
+msgid "Something went wrong while getting the transaction"
+msgstr "مشکلی در بارگذاری تراکنش پیش آمد"
+
+#: src/Controller/ExplorerController.php:228
+msgid "Something went wrong while getting the pending transactions"
+msgstr "مشکلی در بارگذاری تراکنش های در انتظار پیش آمد"
+
+#: src/Controller/ExplorerController.php:247
+msgid "Something went wrong while getting the pending transaction"
+msgstr "مشکلی در بارگذاری تراکنش در انتظار پیش آمد"
+
+#: src/Controller/ExplorerController.php:264
+msgid "Need to provide a pending transaction"
+msgstr "نیاز به ارائه تراکنش در انتظار دارید"
+
+#: src/Controller/ExplorerController.php:299
+msgid "Need to provide an asset"
+msgstr "نیاز به ارائه دارایی دارید"
+
+#: src/Controller/ExplorerController.php:332
+msgid "Need to provide a query"
+msgstr "نیاز به جستجو دارید"
+
+#: templates/layout/default.php:281
+msgid "Address"
+msgstr "آدرس"
+
+#: templates/Explorer/address.php:20 templates/Explorer/asset.php:49
+#: templates/Explorer/assets.php:50 templates/Explorer/block.php:53
+#: templates/Explorer/blocktransactions.php:53 templates/Explorer/index.php:108
+#: templates/Explorer/pendingtransaction.php:127
+#: templates/Explorer/pendingtransactions.php:42
+#: templates/Explorer/transaction.php:149
+msgid "While using {0} an error occured."
+msgstr "متاسفانه مشکلی پیش آمده است: {0} Error."
+
+#: templates/Explorer/blocktransactions.php:14 templates/layout/default.php:281
+msgid "Block"
+msgstr "بلاک"
+
+#: templates/Explorer/asset.php:15
+msgid "Type"
+msgstr "نوع"
+
+#: templates/Explorer/asset.php:17
+msgid "Quorum"
+msgstr "حدنصاب"
+
+#: templates/Explorer/asset.php:19
+msgid "Key Index"
+msgstr "شاخص کلید"
+
+#: templates/Explorer/asset.php:21
+msgid "Derive Rule"
+msgstr "دستور نتیجه"
+
+#: templates/Explorer/asset.php:23 templates/Explorer/assets.php:20
+#: templates/Explorer/pendingtransaction.php:19
+msgid "ID"
+msgstr "آی دی"
+
+#: templates/Explorer/asset.php:25 templates/Explorer/assets.php:19
+msgid "Alias"
+msgstr "نام مستعار"
+
+#: templates/Explorer/asset.php:27
+msgid "Vm Version"
+msgstr "ورژن Vm"
+
+#: templates/Explorer/asset.php:29
+msgid "Issue Program"
+msgstr "پروگرام موضوع"
+
+#: templates/Explorer/asset.php:31
+msgid "Raw Definition Byte"
+msgstr "بایت شرح خام"
+
+#: templates/Explorer/asset.php:33
+msgid "Limit Height"
+msgstr "حد ارتفاع"
+
+#: templates/Explorer/asset.php:35
+msgid "Definition Decimals"
+msgstr "تعریف اعشاری"
+
+#: templates/Explorer/asset.php:37
+msgid "Definition Description"
+msgstr "شرح توضیحات"
+
+#: templates/Explorer/asset.php:39
+msgid "Definition Name"
+msgstr "شرح نام"
+
+#: templates/Explorer/asset.php:41
+msgid "Definition Symbol"
+msgstr "شرح نماد"
+
+#: templates/Explorer/assets.php:21
+msgid "Name"
+msgstr "نام"
+
+#: templates/Explorer/assets.php:22
+msgid "Symbol"
+msgstr "نماد"
+
+#: templates/Explorer/assets.php:23
+msgid "Description"
+msgstr "توضیحات"
+
+#: templates/Explorer/assets.php:43
+msgid "No orders on this block"
+msgstr "بلاک فاقد تراکنش هست"
+
+#: templates/Explorer/block.php:15 templates/Explorer/index.php:50
+msgid "Number"
+msgstr "شماره"
+
+#: templates/Explorer/block.php:17 templates/Explorer/index.php:51
+msgid "Hash"
+msgstr "هش"
+
+#: templates/Explorer/block.php:19 templates/Explorer/pendingtransaction.php:23
+#: templates/Explorer/transaction.php:39
+msgid "Size"
+msgstr "سایز"
+
+#: templates/Explorer/block.php:21 templates/Explorer/pendingtransaction.php:21
+msgid "Version"
+msgstr "ورژن"
+
+#: templates/Explorer/block.php:23
+msgid "Previous Block Hash"
+msgstr "هش بلاک قبلی"
+
+#: templates/Explorer/block.php:25
+msgid "Timestamp"
+msgstr "برچسب زمانی"
+
+#: templates/Explorer/block.php:27 templates/Explorer/index.php:53
+msgid "Nonce"
+msgstr "نانس"
+
+#: templates/Explorer/block.php:29
+msgid "Bits"
+msgstr "بیت ها"
+
+#: templates/Explorer/block.php:31 templates/Explorer/index.php:54
+msgid "Difficulty"
+msgstr "سختی"
+
+#: templates/Explorer/block.php:33
+msgid "Transaction Merkle Root"
+msgstr "مرکل روت تراکنش"
+
+#: templates/Explorer/block.php:35
+msgid "Transaction Status Hash"
+msgstr "وضعیت هش تراکنش"
+
+#: templates/Explorer/block.php:37 templates/Explorer/index.php:55
+msgid "Transactions"
+msgstr "تراکنش ها"
+
+#: templates/Explorer/blocktransactions.php:28
+#: templates/Explorer/pendingtransactions.php:19
+#: templates/layout/default.php:281
+msgid "Transaction"
+msgstr "تراکنش"
+
+#: templates/Explorer/blocktransactions.php:29
+#: templates/Explorer/pendingtransaction.php:25
+#: templates/Explorer/transaction.php:37
+msgid "Status"
+msgstr "وضعیت ناموفق"
+
+#: templates/Explorer/blocktransactions.php:50
+msgid "No transactions on this block"
+msgstr "بلاک فاقد تراکنش هست"
+
+#: templates/Explorer/index.php:13
+msgid "Last Block"
+msgstr "آخرین بلاک"
+
+#: templates/Explorer/index.php:23
+msgid "Pending Transactions"
+msgstr "تراکنش های در انتظار"
+
+#: templates/Explorer/index.php:26
+msgid "Pending Transaction(s)"
+msgstr "تراکنش(ها) در انتظار"
+
+#: templates/Explorer/index.php:34
+msgid "No pending transactions"
+msgstr "فاقد تراکنش در انتظار"
+
+#: templates/Explorer/index.php:40
+msgid "Supply"
+msgstr "موجودی کل"
+
+#: templates/Explorer/index.php:52
+msgid "Time Stamp"
+msgstr "برچسب زمانی"
+
+#: templates/Explorer/index.php:90 templates/Explorer/index.php:92
+msgid "previous"
+msgstr "قبلی"
+
+#: templates/Explorer/index.php:96 templates/Explorer/index.php:98
+msgid "next"
+msgstr "بعدی"
+
+#: templates/Explorer/index.php:104
+msgid "No blocks"
+msgstr "فاقد بلاک"
+
+#: templates/Explorer/pendingtransaction.php:27
+msgid "Mux ID"
+msgstr "آی دی موکس"
+
+#: templates/Explorer/pendingtransaction.php:37
+#: templates/Explorer/transaction.php:49
+msgid "Inputs"
+msgstr "ورودی ها"
+
+#: templates/Explorer/pendingtransaction.php:73
+#: templates/Explorer/transaction.php:95
+msgid "No Inputs"
+msgstr "بدون ورودی"
+
+#: templates/Explorer/pendingtransaction.php:82
+#: templates/Explorer/transaction.php:104
+msgid "Outputs"
+msgstr "خروجی ها"
+
+#: templates/Explorer/pendingtransaction.php:120
+#: templates/Explorer/transaction.php:142
+msgid "No Outputs"
+msgstr "بدون خروجی"
+
+#: templates/Explorer/pendingtransactions.php:39
+msgid "No pending transactions."
+msgstr "تراکنش در انتظاری وجود ندارد."
+
+#: templates/Explorer/transaction.php:19
+msgid "Tx ID"
+msgstr "آی دی تراکنش"
+
+#: templates/Explorer/transaction.php:21
+msgid "Block Time"
+msgstr "زمان بلاک"
+
+#: templates/Explorer/transaction.php:23
+msgid "Block Hash"
+msgstr "هش بلاک"
+
+#: templates/Explorer/transaction.php:25
+msgid "Block Height"
+msgstr "ارتفاع بلاک"
+
+#: templates/Explorer/transaction.php:35
+msgid "Block Index"
+msgstr "شاخص بلاک"
+
+#: templates/layout/default.php:41
+msgid "KUSK Blockchain Explorer"
+msgstr "مرورگر بلاکچین KUSK"
+
+#: templates/layout/default.php:267
+msgid "Home"
+msgstr "صفحه اصلی"
+
+#: templates/layout/default.php:274
+msgid "Assets"
+msgstr "دارایی ها"
+
+#: templates/layout/error.php:38
+msgid "Back"
+msgstr "بازگشت"
