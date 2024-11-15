@@ -236,7 +236,7 @@ return [
 ## First time install
 
 - `cd /var/www`
-- `git clone git@github.com:KUSK-Project/core-explorer.git explorer`
+- `git clone git@github.com:KUSK-TOP/kuskexplorer.git explorer`
 - `composer install`
 - Under folder `config` create `app_local.php` with the content above
 - Make sure there are no DB issues
